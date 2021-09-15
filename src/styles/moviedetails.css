@@ -1,0 +1,66 @@
+
+
+#top {
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    height:100%;
+    display: block;
+    overflow: auto;
+    
+}
+
+#title {
+    float: left;
+    word-wrap:normal;
+    color: var(--font-color);
+    width: 550px;
+    display: block;
+}
+
+
+#rating {
+    float: right;
+}
+
+#description-wrapper {
+    height: 100%;
+    overflow: hidden;
+}
+
+#poster {
+    height: 300px;
+    width: 220px;
+    box-shadow: 2px 4px 10px 0 black;
+}
+
+#poster-wrapper {
+    float: left;
+    overflow:visible;
+}
+
+#right-side {
+    width:530px;
+    float: right;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+
+#plot {
+    clear: right;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#label {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 120px;
+    display: inline-block;
+}
+
+#info {
+    font-size: 16px;
+}

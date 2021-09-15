@@ -1,0 +1,94 @@
+#sorting_container {
+    height: 40px;
+    font-size: 18px;
+    padding-top: 15px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    color: var(--font-color);
+}
+
+.button {
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+#AZ_sort {
+    float: left;
+    padding-right: 40px;
+    text-decoration: underline;
+    color: var(--font-color);
+}
+
+#Year_sort {
+    float:left;
+    padding-right: 40px;
+    text-decoration: underline;
+    color: var(--font-color);
+
+}
+
+#Rating_sort {
+    float: left;
+    text-decoration: underline;
+    color: var(--font-color);
+
+}
+
+#movie_container {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#movie_header {
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+#title {
+    float: left;
+    word-wrap:normal;
+    color: var(--font-color);
+}
+
+#clearer {
+    height: 1px;
+    width: 100%;
+    clear: both;
+}
+
+#content-wrapper {
+    height: 300px;
+}
+
+#poster {
+    height: 100%;
+    width: 220px;
+    box-shadow: 2px 4px 10px 0 black;
+    float: left;
+}
+
+#star {
+    padding-left: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+#link:visited {
+    color: var(--font-color);;
+}
+
+#link:hover {
+    color: #f5c518;
+}
+
+#link:link {
+    color: var(--font-color);
+}

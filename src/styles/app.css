@@ -1,0 +1,19 @@
+.page-wrapper {
+  border: 2px solid var(--border-color);
+  border-radius: 5px;
+  
+}
+
+.search-container {
+  display: block;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #202020;
+  height: 50px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.content {
+  padding: 15px;
+}
