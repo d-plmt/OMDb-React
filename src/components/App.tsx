@@ -40,7 +40,7 @@ const App = () => {
   useEffect(() => {
     const search_request = async () => {
       setMovies([]);
-      const url = `http://www.omdbapi.com/?s=${titleSearch}&apikey=`
+      const url = `http://www.omdbapi.com/?s=${titleSearch}&apikey=65a08a0`
 
       const response = await fetch(url);
       const responseJson = await response.json();
