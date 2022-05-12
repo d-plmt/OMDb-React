@@ -29,7 +29,7 @@ const MovieDetails = (props: any) => {
         setID(props.imdbID);
 
         async function search_request() {
-            const url = `http://www.omdbapi.com/?i=${imdbID}&plot=short&apikey=`
+            const url = `http://www.omdbapi.com/?i=${imdbID}&plot=short&apikey=65a08a0`
 
             const response = await fetch(url);
             const responseJson = await response.json();
